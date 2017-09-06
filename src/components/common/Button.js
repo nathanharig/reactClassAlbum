@@ -7,7 +7,8 @@ const Button = ({ onPress, children }) => {
 //Touchable Opactiy onPress is running a function from parent (AlbumDetail)
   return (
     <TouchableOpacity
-      onPress={onPress} style={buttonStyle}>
+      onPress={onPress} style={buttonStyle}
+    >
     <Text style={textStyle}>
       {children}
     </Text>
